@@ -74,7 +74,6 @@ The frontend is responsible for user interaction and presentation, while the bac
 
 ### Backend (`backend/.env`)
 ```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+
 CLIENT_ORIGIN=https://quizripple.vercel.app
-NODE_ENV=production
+
