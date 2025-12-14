@@ -1,0 +1,419 @@
+{
+  "config": {
+    "title": "Web Development Fundamentals Quiz",
+    "description": "Comprehensive assessment of web development knowledge",
+    "version": "2.0.0",
+    "timeLimit": 1800,
+    "defaultTimer": 30,
+    "passingScore": 70,
+    "shuffleQuestions": true,
+    "shuffleOptions": true,
+    "warningcount" : 3
+  },
+  
+  "categories": [
+    { "id": "html", "name": "HTML", "color": "#e34c26", "icon": "fab fa-html5" },
+    { "id": "css", "name": "CSS", "color": "#1572b6", "icon": "fab fa-css3-alt" },
+    { "id": "js", "name": "JavaScript", "color": "#f7df1e", "icon": "fab fa-js-square" },
+    { "id": "web", "name": "Web Concepts", "color": "#61dafb", "icon": "fas fa-globe" }
+  ],
+
+  "difficulties": [
+    { "id": "easy", "name": "Easy", "points": 1, "color": "#4caf50" },
+    { "id": "medium", "name": "Medium", "points": 2, "color": "#ff9800" },
+    { "id": "hard", "name": "Hard", "points": 3, "color": "#f44336" }
+  ],
+
+  "questions": [
+    {
+      "id": "html_001",
+      "text": "Which HTML tag is used to define an internal style sheet?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<style>", "correct": true },
+        { "id": "b", "text": "<css>", "correct": false },
+        { "id": "c", "text": "<script>", "correct": false },
+        { "id": "d", "text": "<link>", "correct": false }
+      ],
+      "explanation": "The <style> tag is used to define internal CSS within HTML documents."
+    },
+    {
+      "id": "html_002",
+      "text": "What does HTML stand for?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "Hyperlinks and Text Markup Language", "correct": false },
+        { "id": "b", "text": "HyperText Markup Language", "correct": true },
+        { "id": "c", "text": "Home Tool Markup Language", "correct": false },
+        { "id": "d", "text": "HyperText Making Language", "correct": false }
+      ],
+      "explanation": "HTML stands for HyperText Markup Language, the standard markup language for web pages."
+    },
+    {
+      "id": "html_003",
+      "text": "Which HTML element is used for the largest heading?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<h6>", "correct": false },
+        { "id": "b", "text": "<heading>", "correct": false },
+        { "id": "c", "text": "<h1>", "correct": true },
+        { "id": "d", "text": "<header>", "correct": false }
+      ],
+      "explanation": "The <h1> element represents the largest heading in HTML."
+    },
+    {
+      "id": "css_001",
+      "text": "Which CSS property is used to control the text color?",
+      "category": "css",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "color", "correct": true },
+        { "id": "b", "text": "text-color", "correct": false },
+        { "id": "c", "text": "font-color", "correct": false },
+        { "id": "d", "text": "background-color", "correct": false }
+      ],
+      "explanation": "The 'color' property controls the color of text content in CSS."
+    },
+    {
+      "id": "css_002",
+      "text": "How do you make a list that lists its items with squares?",
+      "category": "css",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "list-style-type: square", "correct": true },
+        { "id": "b", "text": "list-type: square", "correct": false },
+        { "id": "c", "text": "list: square", "correct": false },
+        { "id": "d", "text": "list-style: square", "correct": false }
+      ],
+      "explanation": "The list-style-type property with value 'square' creates square bullet points."
+    },
+    {
+      "id": "css_003",
+      "text": "Which CSS property is used to change the background color?",
+      "category": "css",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "color", "correct": false },
+        { "id": "b", "text": "bg-color", "correct": false },
+        { "id": "c", "text": "background-color", "correct": true },
+        { "id": "d", "text": "bgcolor", "correct": false }
+      ],
+      "explanation": "The background-color property sets the background color of an element."
+    },
+    {
+      "id": "js_001",
+      "text": "Inside which HTML element do we put the JavaScript?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<script>", "correct": true },
+        { "id": "b", "text": "<javascript>", "correct": false },
+        { "id": "c", "text": "<js>", "correct": false },
+        { "id": "d", "text": "<scripting>", "correct": false }
+      ],
+      "explanation": "JavaScript code is placed inside the <script> element in HTML."
+    },
+    {
+      "id": "js_002",
+      "text": "How do you write 'Hello World' in an alert box?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "alertBox('Hello World')", "correct": false },
+        { "id": "b", "text": "msg('Hello World')", "correct": false },
+        { "id": "c", "text": "alert('Hello World')", "correct": true },
+        { "id": "d", "text": "msgBox('Hello World')", "correct": false }
+      ],
+      "explanation": "The alert() function displays a dialog box with a message and an OK button."
+    },
+    {
+      "id": "js_003",
+      "text": "How do you create a function in JavaScript?",
+      "category": "js",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "function = myFunction() {}", "correct": false },
+        { "id": "b", "text": "function myFunction() {}", "correct": true },
+        { "id": "c", "text": "create myFunction() {}", "correct": false },
+        { "id": "d", "text": "function:myFunction() {}", "correct": false }
+      ],
+      "explanation": "Functions in JavaScript are declared using the function keyword followed by the function name."
+    },
+    {
+      "id": "html_004",
+      "text": "Which HTML attribute specifies an alternate text for an image?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "title", "correct": false },
+        { "id": "b", "text": "alt", "correct": true },
+        { "id": "c", "text": "src", "correct": false },
+        { "id": "d", "text": "longdesc", "correct": false }
+      ],
+      "explanation": "The alt attribute provides alternate text for images when they cannot be displayed."
+    },
+    {
+      "id": "css_004",
+      "text": "Which CSS property controls the text size?",
+      "category": "css",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "text-style", "correct": false },
+        { "id": "b", "text": "font-size", "correct": true },
+        { "id": "c", "text": "text-size", "correct": false },
+        { "id": "d", "text": "font-style", "correct": false }
+      ],
+      "explanation": "The font-size property controls the size of the text."
+    },
+    {
+      "id": "js_004",
+      "text": "Which operator is used to assign a value to a variable?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "*", "correct": false },
+        { "id": "b", "text": "=", "correct": true },
+        { "id": "c", "text": "-", "correct": false },
+        { "id": "d", "text": "x", "correct": false }
+      ],
+      "explanation": "The = operator is used for assignment in JavaScript."
+    },
+    {
+      "id": "html_005",
+      "text": "Which HTML element defines navigation links?",
+      "category": "html",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "<navigation>", "correct": false },
+        { "id": "b", "text": "<nav>", "correct": true },
+        { "id": "c", "text": "<navigate>", "correct": false },
+        { "id": "d", "text": "<menu>", "correct": false }
+      ],
+      "explanation": "The <nav> element defines a set of navigation links."
+    },
+    {
+      "id": "css_005",
+      "text": "How do you select an element with id 'demo'?",
+      "category": "css",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": ".demo", "correct": false },
+        { "id": "b", "text": "#demo", "correct": true },
+        { "id": "c", "text": "*demo", "correct": false },
+        { "id": "d", "text": "demo", "correct": false }
+      ],
+      "explanation": "The # symbol is used to select elements by their ID in CSS."
+    },
+    {
+      "id": "js_005",
+      "text": "What will the following code return: Boolean(10 > 9)?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "true", "correct": true },
+        { "id": "b", "text": "false", "correct": false },
+        { "id": "c", "text": "NaN", "correct": false },
+        { "id": "d", "text": "undefined", "correct": false }
+      ],
+      "explanation": "Since 10 is greater than 9, the expression evaluates to true."
+    },
+    {
+      "id": "web_001",
+      "text": "What does CSS stand for?",
+      "category": "web",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "Creative Style Sheets", "correct": false },
+        { "id": "b", "text": "Computer Style Sheets", "correct": false },
+        { "id": "c", "text": "Cascading Style Sheets", "correct": true },
+        { "id": "d", "text": "Colorful Style Sheets", "correct": false }
+      ],
+      "explanation": "CSS stands for Cascading Style Sheets."
+    },
+    {
+      "id": "html_006",
+      "text": "Which HTML element is used to specify a footer for a document?",
+      "category": "html",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "<footer>", "correct": true },
+        { "id": "b", "text": "<bottom>", "correct": false },
+        { "id": "c", "text": "<section>", "correct": false },
+        { "id": "d", "text": "<div>", "correct": false }
+      ],
+      "explanation": "The <footer> element defines a footer for a document or section."
+    },
+    {
+      "id": "css_006",
+      "text": "Which CSS property is used to change the font of an element?",
+      "category": "css",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "font-weight", "correct": false },
+        { "id": "b", "text": "font-style", "correct": false },
+        { "id": "c", "text": "font-family", "correct": true },
+        { "id": "d", "text": "font-size", "correct": false }
+      ],
+      "explanation": "The font-family property specifies the font for an element."
+    },
+    {
+      "id": "js_006",
+      "text": "How can you add a comment in JavaScript?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<!-- This is a comment -->", "correct": false },
+        { "id": "b", "text": "// This is a comment", "correct": true },
+        { "id": "c", "text": "' This is a comment", "correct": false },
+        { "id": "d", "text": "* This is a comment *", "correct": false }
+      ],
+      "explanation": "Single-line comments in JavaScript start with //."
+    },
+    {
+      "id": "html_007",
+      "text": "What is the correct HTML for making a checkbox?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<input type='checkbox'>", "correct": true },
+        { "id": "b", "text": "<input type='check'>", "correct": false },
+        { "id": "c", "text": "<checkbox>", "correct": false },
+        { "id": "d", "text": "<check>", "correct": false }
+      ],
+      "explanation": "The input element with type='checkbox' creates a checkbox."
+    },
+    {
+      "id": "css_007",
+      "text": "How do you make each word in a text start with a capital letter?",
+      "category": "css",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "text-transform: capitalize", "correct": true },
+        { "id": "b", "text": "text-style: capitalize", "correct": false },
+        { "id": "c", "text": "transform: capitalize", "correct": false },
+        { "id": "d", "text": "text-decoration: capitalize", "correct": false }
+      ],
+      "explanation": "The text-transform property with value 'capitalize' capitalizes the first letter of each word."
+    },
+    {
+      "id": "js_007",
+      "text": "Which event occurs when the user clicks on an HTML element?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "onchange", "correct": false },
+        { "id": "b", "text": "onclick", "correct": true },
+        { "id": "c", "text": "onmouseclick", "correct": false },
+        { "id": "d", "text": "onmouseover", "correct": false }
+      ],
+      "explanation": "The onclick event occurs when an element is clicked."
+    },
+    {
+      "id": "html_008",
+      "text": "Which HTML element is used to display a scalar measurement within a known range?",
+      "category": "html",
+      "difficulty": "hard",
+      "options": [
+        { "id": "a", "text": "<gauge>", "correct": false },
+        { "id": "b", "text": "<meter>", "correct": true },
+        { "id": "c", "text": "<measure>", "correct": false },
+        { "id": "d", "text": "<range>", "correct": false }
+      ],
+      "explanation": "The <meter> element represents a scalar measurement within a known range."
+    },
+    {
+      "id": "css_008",
+      "text": "Which CSS property specifies the stack order of an element?",
+      "category": "css",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "z-index", "correct": true },
+        { "id": "b", "text": "stack-order", "correct": false },
+        { "id": "c", "text": "z-order", "correct": false },
+        { "id": "d", "text": "layer", "correct": false }
+      ],
+      "explanation": "The z-index property specifies the stack order of positioned elements."
+    },
+    {
+      "id": "js_008",
+      "text": "What is the correct way to write a JavaScript array?",
+      "category": "js",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "var colors = 'red', 'green', 'blue'", "correct": false },
+        { "id": "b", "text": "var colors = ['red', 'green', 'blue']", "correct": true },
+        { "id": "c", "text": "var colors = (1:'red', 2:'green', 3:'blue')", "correct": false },
+        { "id": "d", "text": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')", "correct": false }
+      ],
+      "explanation": "Arrays in JavaScript are created using square brackets with comma-separated values."
+    },
+    {
+      "id": "web_002",
+      "text": "What does URL stand for?",
+      "category": "web",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "Universal Resource Locator", "correct": false },
+        { "id": "b", "text": "Uniform Resource Locator", "correct": true },
+        { "id": "c", "text": "Unique Resource Locator", "correct": false },
+        { "id": "d", "text": "United Resource Locator", "correct": false }
+      ],
+      "explanation": "URL stands for Uniform Resource Locator."
+    },
+    {
+      "id": "html_009",
+      "text": "Which HTML element is used to group body content for styling purposes?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<div>", "correct": true },
+        { "id": "b", "text": "<span>", "correct": false },
+        { "id": "c", "text": "<group>", "correct": false },
+        { "id": "d", "text": "<section>", "correct": false }
+      ],
+      "explanation": "The <div> element is commonly used to group content for styling purposes."
+    },
+    {
+      "id": "css_009",
+      "text": "Which CSS property is used to create space between the element's border and inner content?",
+      "category": "css",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "margin", "correct": false },
+        { "id": "b", "text": "spacing", "correct": false },
+        { "id": "c", "text": "padding", "correct": true },
+        { "id": "d", "text": "border-spacing", "correct": false }
+      ],
+      "explanation": "The padding property creates space between an element's border and its content."
+    },
+    {
+      "id": "js_009",
+      "text": "How do you round the number 7.25 to the nearest integer?",
+      "category": "js",
+      "difficulty": "medium",
+      "options": [
+        { "id": "a", "text": "rnd(7.25)", "correct": false },
+        { "id": "b", "text": "Math.round(7.25)", "correct": true },
+        { "id": "c", "text": "Math.rnd(7.25)", "correct": false },
+        { "id": "d", "text": "round(7.25)", "correct": false }
+      ],
+      "explanation": "Math.round() returns the value of a number rounded to the nearest integer."
+    },
+    {
+      "id": "html_010",
+      "text": "What is the correct HTML for inserting a line break?",
+      "category": "html",
+      "difficulty": "easy",
+      "options": [
+        { "id": "a", "text": "<break>", "correct": false },
+        { "id": "b", "text": "<br>", "correct": true },
+        { "id": "c", "text": "<lb>", "correct": false },
+        { "id": "d", "text": "<newline>", "correct": false }
+      ],
+      "explanation": "The <br> element inserts a single line break in HTML."
+    }
+  ]
+}
